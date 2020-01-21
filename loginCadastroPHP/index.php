@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BrunSker - Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="login-page">
+        <div class="form-group form">
+            <div class="mb-4">
+                <img src="img/EAFavicon_02.png" alt="Logo">
+            </div>
+            <form class="login-form" method="POST" action="loginController.php">
+                <input type="text" class="form-control mt-2 mb-2" name="username" placeholder="Login:"/>
+                <input type="password" class="form-control mt-2 mb-2" name="password" placeholder="Senha:"/>
+                <button class="btn mb-2">Entrar</button>
+                <p class="message"><a href="cadastro.php">Cadastrar.</a></p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
